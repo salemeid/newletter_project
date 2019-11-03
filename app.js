@@ -41,7 +41,7 @@ app.post("/",function(req, res){
     url: "https://us5.api.mailchimp.com/3.0/lists/699d62adc5",
     method: "POST",
     headers: {
-      "Authorization" : "salem1 1c63c74f7a5b0fd685be3b3f9bb966a7-us5"
+      "Authorization" : "salem1 "
     },
     body: jsonData
 
@@ -74,7 +74,7 @@ app.listen(process.env.PORT || 3000,function(){
 
 
 //API Key
-//1c63c74f7a5b0fd685be3b3f9bb966a7-us5
+//
 
 
 //list // ID
